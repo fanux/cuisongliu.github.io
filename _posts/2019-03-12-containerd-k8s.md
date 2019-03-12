@@ -141,17 +141,17 @@ tags: kubernetes,containerd,cri,oci,runc,cri-o
 
 这里我们就需要导入k8s的离线镜像包了。**这里需要注意一下，kubernetes是调用的cri接口,所以导入时也需要从cri插件导入镜像。**
 
-cri导入镜像命令(cri导入镜像)：
+- cri导入镜像命令(cri导入镜像)：
 
-```shell
-ctr cri load  images.tar
-```
+  ```shell
+   ctr cri load  images.tar
+  ```
 
-containerd导入镜像命令(containerd导入镜像)：
+- containerd导入镜像命令(containerd导入镜像)：
 
-```shell
- ctr images import images.tar 
-```
+  ```
+   ctr images import images.tar 
+  ```
 
 ### 修改kubelet配置和kubeadm安装时配置
 

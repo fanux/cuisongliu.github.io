@@ -1,4 +1,11 @@
-# containerd与kubernetes集成
+---
+layout: post
+title: 'containerd与kubernetes集成'
+date: 2019-03-12
+author: cuisongliu
+cover: 'https://kubernetes.io/images/favicon.png'
+tags: kubernetes,containerd,cri,oci,runc,cri-o
+---
 
 > [kubernetes集群三步安装](https://sealyun.com/pro/products/)
 
